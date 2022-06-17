@@ -1,15 +1,6 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
-  /*let output = [];
-  let i = 0;
-  while(i < array.length){
-    if(array[i] + array[i + 1] === target){
-      output.push(array.indexOf(array[i]), array.indexOf(array[i + 1]))
-    }
-    i++
-  }
-  return array.join()
-}*/
+ 
   for (let a = 0; a < array.length; a++) {
 
     let output = target - array[a];
